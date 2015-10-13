@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OneSecond</string>
+
+    <string name="text1">按住按键，估计1秒的长度</string>
+    <string name="text_button">Push for one second</string>
+    <string name="action_settings">Settings</string>
+</resources>
