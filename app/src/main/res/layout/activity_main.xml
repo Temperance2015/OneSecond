@@ -14,7 +14,7 @@
         android:text="@string/text_button"
         android:textSize="24sp"
         android:textAllCaps="false"
-        android:background="#73d349"/>
+        />
 
     <TextView
         android:text="@string/text1"
@@ -29,6 +29,14 @@
         android:id="@+id/second_text"
         android:textSize="30sp"
         android:layout_below="@+id/main_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/compliment_text"
+        android:textSize="24sp"
+        android:layout_below="@+id/second_text"
+        android:gravity="center"/>
 
 </RelativeLayout>
